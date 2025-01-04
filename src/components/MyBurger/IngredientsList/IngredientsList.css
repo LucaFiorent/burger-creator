@@ -1,0 +1,12 @@
+.ingredientsContentWrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:var(--spc_xl);
+}
+.ingredientsWrapper{
+    display: flex;
+    align-items: center;
+    gap: var(--spc_xl);
+    margin-top:var(--spc_l);
+}

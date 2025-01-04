@@ -1,0 +1,49 @@
+:root{
+    /* font settings */
+    font-size: 10pt;
+    font-family: "Montserrat", sans-serif;
+    /* colors */
+    --prmSalmon100: #ffe6e6;
+    --prmSalmon500: #FAA2A2;
+    --prmSalmon700: #c37979;
+    --prmYellow100: #f9f2ec;
+    --prmYellow500: #facd50;
+    --prmYellow900: #ac8f3f;
+    --prmBlack300: #9898a7;
+    --prmBlack500: #505059;
+    --fontColorPrmBlack:#505059;
+    --backgroundColor: #f9f2ec;
+    --error500:#EB7E40;
+    --error100:#fcdecd;
+    /* spacings */
+    --spc_xxs:2px;
+    --spc_xs:5px;
+    --spc_s:10px;
+    --spc_m:15px;
+    --spc_l:20px;
+    --spc_xl:30px;
+    --spc_xxl:40px;
+    --spc_x3l:70px;
+    /* border radius */
+    --bdRad_s:10px;
+    --bdRad_m:15px;
+    --bdRad_l:30px;
+    --bdRad_xl:40px;
+    --bdRad_xxl:50px;
+}
+
+.sideContent{
+    display: flex;
+    flex-direction:column;
+    align-item:center;
+    justify-content:center;
+    max-width:1400px;
+    height: 100vh;
+    margin-inline:auto;
+}
+.sideContent img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}

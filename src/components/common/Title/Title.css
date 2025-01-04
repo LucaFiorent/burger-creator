@@ -1,0 +1,8 @@
+.titleStyle{
+    display:flex;
+    margin-bottom: var(--spc_l);
+    color: var(--fontColorPrmBlack);
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}

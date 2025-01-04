@@ -1,0 +1,115 @@
+.burgerViewWrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.burgerWrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.burgerContainer{
+    display:flex;
+    flex-direction: column;
+    background-color: var(--prmYellow100);
+    padding: var(--spc_l) var(--spc_x3l);
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--bdRad_l);
+    width: 20rem;
+    z-index: 1;
+    border: 0.2rem solid var(--prmYellow500);
+    height: 30rem; 
+}
+.burgerStyle{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    z-index: 2;
+    max-height: 27rem;
+    min-height: 11rem;
+}
+.burgerBackgroundShadowColor{
+    position: absolute;
+    bottom:-1.5rem;
+    right:-2rem;
+    transform: rotate(2deg);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    border-radius: var(--bdRad_l);
+    background-color: var(--prmYellow500);
+}
+.burgerBackgroundShadowColorWhite{
+    position: absolute;
+    bottom:0.1rem;
+    right:0rem;
+    scale: 1.02;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    border-radius: var(--bdRad_l);
+    background-color: white;
+}
+.burgerPatty{
+    max-width: 20rem;
+}
+.burgerPattyTop{
+    z-index:99;
+}
+.burgerPattyBottom{
+    z-index:0;
+}
+.ingredients{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:-1rem;
+    margin-bottom:1rem;
+}
+.burgerIngredients{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width:20rem;
+    margin-block: -1rem;
+    scale: 1;
+    transition-timing-function: ease-in-out;
+    cursor:pointer;
+    transition: margin-block 0.4s, scale 0.4s;
+}
+.burgerIngredients:hover{
+    margin-block:1rem;
+    scale: 1.2;
+    z-index: 99 !important;
+}
+.burgerIngredients:hover burgetPatty{
+    trasform: 
+}
+.maxIngredientsMss{
+    position: absolute;
+    display:flex;
+    z-index: 99 !important;
+    top:-1rem;
+    color: var(--error500);
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: var(--error100);
+    padding: var(--spc_m)var(--spc_l);
+    border-radius: var(--bdRad_l);
+    border: 0.2rem solid var(--error500);
+}
+.ingredientsTitleMss{
+    position:absolute;
+    top:-1rem;
+    z-index:2;
+    font-size:1rem;
+    color: var(--fontColorPrmBlack);
+    background-color:var(--prmYellow100);
+    padding: var(--spc_m)var(--spc_l);
+    border-radius: var(--bdRad_l);
+    border: 0.2rem solid var(--prmYellow500)
+}

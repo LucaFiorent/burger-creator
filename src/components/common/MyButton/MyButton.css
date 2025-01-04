@@ -1,0 +1,10 @@
+.myButtonStyle{
+    color: white;
+    background-color: var(--prmSalmon500);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    padding: var(--spc_m) var(--spc_l);
+    background-color: var(--prmSalmon500);
+    border-radius: var(--bdRad_l);
+    border: 1px solid var(--prmSalmon700) 
+}

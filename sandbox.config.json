@@ -1,0 +1,8 @@
+{
+  "infiniteLoopProtection": true,
+  "hardReloadOnChange": false,
+  "view": "tests",
+  "test": {
+    "framework": "jest"
+  }
+}

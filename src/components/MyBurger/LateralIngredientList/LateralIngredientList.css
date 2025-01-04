@@ -1,0 +1,11 @@
+.lateralIngredientList{
+    min-width:45rem;
+    max-width:45rem;
+    display:flex;
+    flex-wrap: wrap;
+    gap: var(--spc_xl);    
+}
+.lateralngredientWrapper{
+    min-height:10rem;
+    max-width: 10rem;
+}

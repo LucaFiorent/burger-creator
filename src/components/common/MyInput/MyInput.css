@@ -1,0 +1,20 @@
+.myInputWrapper{
+    display:flex;
+    flex-direction:column;
+}
+.myInputLabel{
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--fontColorPrmBlack);
+    margin-bottom: var(--spc_xs);
+}
+.myInputInput{
+    font-size: 1.1rem;
+    border: 0px solid var(--prmBlack300);
+    border-bottom-width: 0.2rem;
+    padding: var(--spc_xs) var(--spc_s);
+    background-color: transparent;
+}
+.myInputWrapper > input:focus {
+    outline: none !important;
+}

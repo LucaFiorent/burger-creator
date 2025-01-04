@@ -1,0 +1,11 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrappBurgerElements{
+    display:flex;
+    gap: var(--spc_x3l);
+    min-height: 40rem;
+    max-height: 40rem;
+}

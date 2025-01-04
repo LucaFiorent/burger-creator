@@ -1,0 +1,21 @@
+.removeIcon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: var(--spc_xs);
+    border-radius: 50%;
+    border: 0.2rem solid var(--error500);
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    margin-left: 1rem;
+}
+.imageWrapper{
+    display:flex;
+    align-items: flex-start;
+}
+
+.imageWrapper:hover .removeIcon{
+    opacity: 1;
+}
